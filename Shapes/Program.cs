@@ -2,7 +2,7 @@
 using ShapeLib.Figures;
 
 // Фигуры создаются через класс ShapeContainer, импортируемый из библиотеки (ShapeLib)
-Triangle triangle = ShapeContainer.GetNewTriangle(-3, 4, 5);
+Triangle triangle = ShapeContainer.GetNewTriangle(3, 4, 5);
 Circle circle = ShapeContainer.GetNewCircle(5);
 
 // У двух фигур есть свойство Area - площадь
