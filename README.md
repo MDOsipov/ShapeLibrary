@@ -11,4 +11,4 @@
 		LEFT JOIN category c ON c.id = ctp.category_id; 
 
 #### Диаграмма БД:
-![Диаграмма БД](C:/Users/dos12/Downloads/diagram.JPG)
+![Диаграмма БД](https://github.com/MDOsipov/ShapeLibrary/blob/master/diagram.JPG)
