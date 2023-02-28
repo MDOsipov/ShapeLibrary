@@ -4,8 +4,8 @@
 - Проект ShapeLib.test содержит unit-тесты для тестирования функционала библиотеки
 
 ### Запрос из второго задания:
-<SELECT p.product_name, c.category_name 
-FROM 
-	product p
-	LEFT JOIN category_to_product ctp ON p.id = ctp.product_id
-	LEFT JOIN category c ON c.id = ctp.category_id; >
+	SELECT p.product_name, c.category_name 
+	FROM 
+		product p
+		LEFT JOIN category_to_product ctp ON p.id = ctp.product_id
+		LEFT JOIN category c ON c.id = ctp.category_id; >
