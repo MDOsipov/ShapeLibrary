@@ -8,4 +8,4 @@
 	FROM 
 		product p
 		LEFT JOIN category_to_product ctp ON p.id = ctp.product_id
-		LEFT JOIN category c ON c.id = ctp.category_id; >
+		LEFT JOIN category c ON c.id = ctp.category_id; 
